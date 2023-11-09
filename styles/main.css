@@ -3,7 +3,7 @@ body{
     font-family: 'DM Sans', sans-serif;
     font-family: 'Fira Code', monospace;
     background-size: cover;
-    background-repeat: no-repeat;
+ 
     font-family: 'Roboto', sans-serif;
 }
 .foto{
@@ -19,28 +19,31 @@ body{
     margin-top: -9em;
     display: block;
     box-shadow: 0 0 5px 5px gray;
-
+    overflow: hidden;
+}
+.image-responsive{
+    width: 100%;
+    display: block;
 }
 .zamestnanci{
     margin-top: 6em;
-}
-.zamestnanci>figure{
-    margin-right: 5em;
+    justify-content: space-between 2em;
     padding: 3em;
     background-color: white;
     width: 20em;
-    display: inline-block;
+    display: block;
     margin-top: 6em;
-    
 }
+
 .jmeno{
     text-align: left;
     font-weight: bolder;
     font-size: 1.4rem;
+    border-bottom: 1px solid black; 
+    margin-top: .5em;
+    margin-bottom: .5em;
 }
-.cara {
-    border: 1px solid black; 
-}
+
 .informace > div{
     margin-bottom: .6em;
 }
@@ -50,4 +53,10 @@ body{
 .ikony{
     font-family: icomoon;
     margin-right: 1em;
+}
+.obal{
+    display: flex;
+    overflow-x: scroll;
+
+
 }
