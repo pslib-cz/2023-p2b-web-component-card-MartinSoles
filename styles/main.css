@@ -26,13 +26,11 @@ body{
     display: block;
 }
 .zamestnanci{
-    margin-top: 6em;
-    justify-content: space-between 2em;
+    margin-top: 8em;
     padding: 3em;
     background-color: white;
-    width: 20em;
+    max-width: 20em;
     display: block;
-    margin-top: 6em;
 }
 
 .jmeno{
@@ -56,7 +54,6 @@ body{
 }
 .obal{
     display: flex;
-    overflow-x: scroll;
-
-
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
